@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "*" // Or restrict to your frontend URL: "https://your-frontend.netlify.app"
+  origin: "https://your-frontend-site.netlify.app"
 }));
 app.use(express.json());
 
