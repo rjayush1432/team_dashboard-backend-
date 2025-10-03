@@ -7,8 +7,9 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://your-frontend-site.netlify.app"
+  origin: "https://spectacular-tartufo-d3ab0b.netlify.app"
 }));
+
 app.use(express.json());
 
 // MongoDB connection
