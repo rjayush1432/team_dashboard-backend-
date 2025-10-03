@@ -7,8 +7,9 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://spectacular-tartufo-d3ab0b.netlify.app"
+  origin: "*"
 }));
+
 
 app.use(express.json());
 
